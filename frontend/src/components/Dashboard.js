@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { DummyProfiles } from "./DummyProfiles";
 
-const AdminDashboard = () => {
+const Dashboard = () => {
   const [profiles, setProfiles] = useState(DummyProfiles);
   const [editingProfile, setEditingProfile] = useState(null);
   const [editedData, setEditedData] = useState({});
@@ -39,6 +39,7 @@ const AdminDashboard = () => {
   );
 
   return (
+    <div className="min-h-screen flex flex-col items-center bg-gradient-to-b from-blue-200 to-blue-400 py-12">
     <div className="container mx-auto p-8 bg-black-300 min-h-screen">
       <h1 className="text-4xl font-bold text-center mb-6 text-black-700">Admin Dashboard</h1>
       
@@ -162,7 +163,8 @@ const AdminDashboard = () => {
         </table>
       </div>
     </div>
+    </div>
   );
 };
 
-export default AdminDashboard;
+export default Dashboard;

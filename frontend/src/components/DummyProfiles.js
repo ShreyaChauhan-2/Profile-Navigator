@@ -6,6 +6,7 @@ export const DummyProfiles=[
         description: "A software developer with a passion for open-source projects.",
         location: { lat: 40.7128, lng: -74.0060 }, // Nyc
         address: "New York, NY, USA",
+        contact:45312678
     },
     {
     id: 2,
@@ -14,6 +15,8 @@ export const DummyProfiles=[
     description: "An experienced UX designer who loves creating intuitive interfaces.",
     location: { lat: 34.0522, lng: -118.2437 }, // LA
     address: "Los Angeles, CA, USA",
+    contact:243278
+
     },
     {
     id: 3,
@@ -22,5 +25,7 @@ export const DummyProfiles=[
     description: "A data scientist who enjoys finding insights in big data.",
     location: { lat: 51.5074, lng: -0.1278 }, // London
     address: "London, UK",
+    contact:9293970
+
     },
 ]
