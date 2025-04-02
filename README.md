@@ -37,14 +37,15 @@ npm start
 
 ## **📂 Project Structure**  
 ```
-/react-profile-dashboard
+/frontend
 │── src/
 │   ├── components/
 │   │   ├── Dashboard.js            # Admin panel with sidebar
-│   │   ├── ProfileManagement.js    # Add/Edit/Delete profiles
+│   │   ├── DummyProfiles.js    # Add/Edit/Delete profiles
 │   │   ├── ProfileDisplay.js       # Public profile list
 │   ├── App.js                      # Main application with routing
 │   ├── index.js                    # React entry point
+|   |__ index.css
 │── public/
 │── package.json
 │── README.md
